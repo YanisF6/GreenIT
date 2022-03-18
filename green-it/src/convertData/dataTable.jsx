@@ -18,7 +18,7 @@ function JsonDataDisplay() {
     //         )
     //     }
     //     )
-    const DisplayData = JsonData.map(
+    const DisplayData = JsonData.filter((elt) => elt.nomCom.charAt(0) == 'A' && elt.nomCom.charAt(1) == 'a').map(
         (info) => {
             return (
                 <tr>
@@ -34,7 +34,24 @@ function JsonDataDisplay() {
                 </tr>
             )
         }
-    )
+    );
+    /*const DisplayData = JsonData.map(
+        (info) => {
+            return (
+                <tr>
+                    <td>{info.nomCom}</td>
+                    <td>{info.codeIris}</td>
+                    <td>{info.classementScoreGlobal}</td>
+                    <td>{info.nomIris}</td>
+                    <td>{info.population}</td>
+                    <td>{info.ScoreGlobal}</td>
+                    <td>{info.accesAuxInterfacesNumeriques}</td>
+                    <td>{info.accesInformation}</td>
+                    <td>{info.competencesAdministratives}</td>
+                </tr>
+            )
+        }
+    )*/
 
     return (
         <div>
