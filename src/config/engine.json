@@ -1,0 +1,23 @@
+{
+    "engineName": "green-it",
+    "endpointBase": "https://green-it.ent.us-central1.gcp.cloud.es.io",
+    "searchKey": "search-n86vw6px32ov6k6fw7kfhfh1",
+    "resultFields": [
+        "code_iris_splited",
+        "acces_information_departemental",
+        "competence_administrative_departemental",
+        "competence_numerique_scolaire_departemental",
+        "acces_aux_interfaces_numerique_departemental",
+        "score_global_departemental",
+        "acces_aux_interfaces_numerique_regional",
+        "competence_administrative_regional",
+        "acces_information_regional",
+        "competence_numerique_scolaire_regional",
+        "score_global_regional"
+    ],
+    "sortFields": [
+        "nom_com"
+    ],
+    "facets": [],
+    "titleField": "nom_com"
+}
