@@ -1,0 +1,29 @@
+{
+    "engineName": "greenit",
+    "endpointBase": "https://green-it.ent.us-central1.gcp.cloud.es.io",
+    "searchKey": "search-n86vw6px32ov6k6fw7kfhfh1",
+    "resultFields": [
+        "code_departement",
+        "acces_information_ville",
+        "competence_administrative_ville",
+        "competence_numerique_scolaire_ville",
+        "acces_aux_interfaces_numerique_ville",
+        "score_global_ville",
+        "acces_information_departement",
+        "competence_administrative_departement",
+        "competence_numerique_scolaire_departement",
+        "acces_aux_interfaces_numerique_departement",
+        "score_global_departement",
+        "region",
+        "acces_aux_interfaces_numerique_region",
+        "competence_administrative_region",
+        "acces_information_region",
+        "competence_numerique_scolaire_region",
+        "score_global_region"
+    ],
+    "sortFields": [
+        "nom_com"
+    ],
+    "facets": [],
+    "titleField": "nom_com"
+}
